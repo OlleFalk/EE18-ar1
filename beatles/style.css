@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Rochester&display=swap');
+body {
+    background-image: url("./bilder/fleur-qrHBY0TQBFk-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Rochester', cursive;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Rochester', cursive;
+}
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Crafty Girls', cursive;
+}
+a { 
+    color: white;
+}
