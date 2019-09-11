@@ -1,0 +1,36 @@
+body {
+    @import url('https://fonts.googleapis.com/css?family=Livvic|Merriweather&display=swap');
+}
+table {
+    width: 700;
+    background: #70eeff;
+    border-spacing: 10px;
+    table-layout: fixed;
+}
+caption {
+    font-family: 'Merriweather', serif;     
+    font-size: 50px;
+    background-image: url("./bilder/samuel-scrimshaw-ebbFZvavGy4-unsplash.jpg");
+    background-size: cover;
+   
+}
+tr {
+
+}
+th {
+    font-family: 'Livvic', sans-serif;
+    font-size: 35px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    padding: 10px;
+}
+td {
+    font-family: 'Livvic', sans-serif;
+    font-size: 20px;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid  rgb(177, 176, 176);
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+}
