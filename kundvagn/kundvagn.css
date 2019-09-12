@@ -1,0 +1,27 @@
+body{
+    background: #F9F5F5;
+}
+table{
+    background: #FFF;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 2px solid #CCC;
+}
+thead{
+    background: #EB1F07;
+    color: #FFF
+}
+tr{
+    border: 1px solid #CCC;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    
+}
+tfoot{
+    background: #f9f9f9;
+    font-weight: bold;
+}
