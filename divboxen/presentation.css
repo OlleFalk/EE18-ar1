@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(153, 153, 153);
+}
+div {
+    width: 500px;
+    background: url("./bilder/photo-1468276311594-df7cb65d8df6.jpg");
+    padding: 30px 30px 30px 300px;
+    height: 500px;
+    margin: 100px auto 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(95, 33, 80);
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+}
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
