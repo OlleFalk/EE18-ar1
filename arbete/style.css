@@ -1,0 +1,46 @@
+/* Enkel CSS-reset */
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* utseende på sidan */
+.sida1 {
+    background: url("./bilder/images\ \(1\).jpg");
+}
+.sida2 {
+    background: url("./bilder/images.jpg");
+}
+.sida3 {
+    background: url("./bilder/images\ \(3\).jpg");
+}
+
+div {
+    width: 600px;
+    padding: 40px;
+    margin: 100px auto;
+    background: #fff;
+    border: 3px dashed;
+}
+/* utseende på innehållet */
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    
+}
+
+p {
+    font-family: 'Ranga', cursive;
+    margin: 20px 0 20px 0;
+}
+a {
+    font-size: 50px;
+    color: #000000;
+    text-decoration: none;
+}
