@@ -1,0 +1,38 @@
+body {
+    background: #0E204D;
+}
+table {
+    font-family: sans-serif;
+    width: 1000px;
+    border-collapse: collapse;
+    background: white;
+}
+caption {
+    background: #12326E;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+th {
+    background: #12326E;
+    color: white;
+    padding: 10px;
+}
+td {
+    padding: 5px;
+    text-align: center;
+}
+img {
+    width: 20px;
+}
+.ledare {
+    background: #E73088;
+    color: white;
+}
+.grå {
+    background:#F5F5F5;
+}
+.lag {
+    text-align: left;
+    font-weight: bold;
+}

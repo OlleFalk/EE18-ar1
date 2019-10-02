@@ -1,0 +1,26 @@
+body {
+    background-image: url("./bilder/rowan-heuvel-U6t80TWJ1DM-unsplash.jpg");
+}
+h1 {
+    color: #ffffff;
+    font: bold 100px sans-serif;
+    text-transform: uppercase;
+    margin: 100px 0 0 100px;
+}
+h2 {
+    font: bold 50px sans-serif;
+    color: #ffffff;
+    margin: 50px 0 0 100px;
+}
+p {
+    font: bold 20px sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 200px 0 0 750px;
+    background-color: pink;
+    width: 200px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}

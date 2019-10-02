@@ -1,0 +1,22 @@
+body {
+background-image: url("./bilder/skane.jpg");
+background-repeat: no-repeat;
+background-size: 2000px;
+}
+h1 {
+    color: #ffffff;
+    width: 800px;
+    margin-left: 100px;
+}
+p {
+    color: #ffffff;
+    width: 800px;
+    margin-left: 100px;
+    font-style: italic;
+}
+br {
+    
+}
+img {
+
+}
