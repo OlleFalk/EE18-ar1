@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Vollkorn&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Utseende på sidan */
+body {
+    background: rgb(44, 44, 44);
+}
+.sidan {
+    font-family: 'Vollkorn', serif;
+    width: 700px;
+    background: rgb(132, 32, 190);
+    background: linear-gradient(90deg, rgba(132, 32, 190, 1) 0%, rgba(253, 29, 29, 1) 51%, rgba(252, 210, 69, 1) 100%);
+    padding: 35px;
+    margin: 25px auto 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px white;
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Utseende på inläggen */
+.inlagg {
+    background: rgb(87, 0, 210);
+    background: linear-gradient(90deg, rgba(87, 0, 210, 1) 0%, rgba(220, 7, 247, 1) 51%, rgba(95, 33, 255, 1) 100%);
+    padding: 15px;
+    margin: 15px 0 15px 0;
+    border-radius: 20px;
+}
+img {
+    width: 100%;
+}
+h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+.datum {
+
+}
+p {
+    color: white;
+}
+
+/* Utseende på sidfoten */
+.sidfot {
+
+}
+.namn {
+    
+}
