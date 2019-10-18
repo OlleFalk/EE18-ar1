@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans utseende */
+
+body {
+    
+}
+.kontainer {
+    font: 25px 'Anton', sans-serif;
+    color: #682F1c;
+}
+
+/* sidhuvudets utseende */
+
+.kontainer .sihuvud {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.kontainer .sidhuvud img {
+    margin-left: 50px;
+}
+.kontainer .sidhuvud ul {
+
+}
+.kontainer .sidhuvud li {
+    display: inline;
+    padding: 40px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.kontainer .sidhuvud li a {
+    color: #682F1c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 5px 15px;
+}
+p {
+
+}
+
+/* Innehållets utseende */
+
+.kontainer .rutnät {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+.kontainer .rutnät .produkt {
+
+}
+.kontainer .rutnät .produkt h1 {
+
+}
+.kontainer .rutnät .produkt h2 {
+
+}
+
+/* Bakrundsfärger */
+
+.kontainer .ljus {
+    background: #FEF1E5;
+}
+.kontainer .mörk {
+    background: #EFDAC5;
+}
+
+
