@@ -1,0 +1,61 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Hur det ser ut */
+
+body {
+    background-image: url("./bilder/maxresdefault.jpg");
+    background-size: cover;
+}
+table {
+
+}
+th {
+
+}
+a {
+
+}
+h2 {
+    color: orange;
+}
+p {
+    color: white;
+}
+img {
+    width: 450px;
+}
+.historia {
+    background: rgb(82, 80, 80);
+    margin: auto 75px auto 550px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: orange;
+    border-width: 5px;
+    border-style: solid;
+}
+.sverige {
+    margin: auto 550px auto 75px;
+    background: rgb(82, 80, 80);
+    padding: 15px;
+    border-radius: 5px;
+    border-color: orange;
+    border-width: 5px;
+    border-style: solid;
+}
+.pumpabild {
+    float: left;
+    margin: auto 25px auto 75px;
+}
+.kvinna {
+    float: right;
+    margin-right: 75px;
+}
