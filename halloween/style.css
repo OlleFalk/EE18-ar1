@@ -12,50 +12,72 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Hur det ser ut */
 
 body {
-    background-image: url("./bilder/maxresdefault.jpg");
-    background-size: cover;
+    background-image: url("./bilder/Halloween-seamless-pattern-by-thanaporn.pinp_-2.jpg");
+    background-size: contain;
 }
-table {
-
-}
+table {}
 th {
-
+    margin: auto;
 }
-a {
-
-}
+a {}
 h2 {
     color: orange;
+    background: rgb(82, 80, 80);
+
+}
+.titlehoger {
+    margin: auto 755px auto 550px;
+    padding: 7px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.titlevanster {
+    margin: auto 800px auto 550px;
+    padding: 7px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 p {
     color: white;
 }
 img {
     width: 450px;
+    border-color: rgb(80, 79, 78);
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 5px;
 }
 .historia {
     background: rgb(82, 80, 80);
-    margin: auto 75px auto 550px;
+    margin: 10px 550px auto 550px;
     padding: 15px;
     border-radius: 5px;
-    border-color: orange;
-    border-width: 5px;
+    border-color: rgb(80, 79, 78);
+    border-width: 8px;
     border-style: solid;
 }
 .sverige {
-    margin: auto 550px auto 75px;
-    background: rgb(82, 80, 80);
+    margin: 10px 550px auto 550px;
+    background: rgb(133, 131, 131);
     padding: 15px;
     border-radius: 5px;
-    border-color: orange;
-    border-width: 5px;
+    border-color: rgb(80, 79, 78);
+    border-width: 8px;
     border-style: solid;
 }
-.pumpabild {
+.vanster {
     float: left;
     margin: auto 25px auto 75px;
 }
-.kvinna {
+hr {
+    clear: both;
+    visibility: hidden;
+}
+.hoger {
     float: right;
     margin-right: 75px;
 }
