@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Creepster|Sancreek&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -11,27 +13,54 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 /* Hur det ser ut */
 
-body {
+.hem {
     background-image: url("./bilder/Halloween-seamless-pattern-by-thanaporn.pinp_-2.jpg");
     background-size: contain;
 }
-table {}
-th {
-    margin: auto;
+
+.kontainer {
+
 }
-a {}
+.kontainer .meny {
+
+}
+.kontainer .meny ul{
+    background: rgb(0, 0, 0);
+    margin: 20px 75px 20px 75px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(82, 80, 80);
+    border-radius: 15px;
+    box-shadow: 0 0 10px white;
+}
+.kontainer .meny li {
+    display: inline;
+    padding: 50px;
+    font-weight: bold;
+    margin: 55px;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+}
+.kontainer .meny li a{
+    color: orange;
+    text-decoration: none;
+}
+
 h2 {
     color: orange;
     background: rgb(82, 80, 80);
 
 }
 .titlehoger {
-    margin: auto 755px auto 550px;
+    margin: auto 740px auto 550px;
     padding: 7px;
     border-style: solid;
     border-width: 5px;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0 0 10px white;
+    font-family: 'Sancreek', cursive; 
 }
 .titlevanster {
     margin: auto 800px auto 550px;
@@ -40,9 +69,12 @@ h2 {
     border-width: 5px;
     border-radius: 5px;
     text-align: center;
+    box-shadow: 0 0 10px white;
+    font-family: 'Sancreek', cursive;
 }
 p {
     color: white;
+    font-family: 'Courgette', cursive;
 }
 img {
     width: 450px;
@@ -50,15 +82,17 @@ img {
     border-style: solid;
     border-width: 8px;
     border-radius: 5px;
+    box-shadow: 0 0 15px orange;
 }
 .historia {
-    background: rgb(82, 80, 80);
+    background: rgb(133, 131, 131);
     margin: 10px 550px auto 550px;
     padding: 15px;
     border-radius: 5px;
     border-color: rgb(80, 79, 78);
     border-width: 8px;
     border-style: solid;
+    box-shadow: 0 0 15px orange;
 }
 .sverige {
     margin: 10px 550px auto 550px;
@@ -68,10 +102,11 @@ img {
     border-color: rgb(80, 79, 78);
     border-width: 8px;
     border-style: solid;
+    box-shadow: 0 0 15px orange;
 }
 .vanster {
     float: left;
-    margin: auto 25px auto 75px;
+    margin: 70px 25px auto 75px;
 }
 hr {
     clear: both;
@@ -79,5 +114,5 @@ hr {
 }
 .hoger {
     float: right;
-    margin-right: 75px;
+    margin: 10px 75px auto auto;
 }
