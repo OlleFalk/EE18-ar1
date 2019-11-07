@@ -76,7 +76,8 @@ p {
     color: white;
     font-family: 'Courgette', cursive;
 }
-img {
+
+.hembilder {
     width: 450px;
     border-color: rgb(80, 79, 78);
     border-style: solid;
@@ -115,4 +116,55 @@ hr {
 .hoger {
     float: right;
     margin: 10px 75px auto auto;
+}
+
+/* Pumpa sidan */
+
+.pumpakontainer .pumpameny ul {
+    background: rgb(0, 0, 0);
+    margin: 20px 75px 20px 75px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(82, 80, 80);
+    border-radius: 15px;
+    box-shadow: 0 0 10px white;
+}
+.pumpakontainer .pumpameny li {
+    display: inline;
+    padding: 50px;
+    font-weight: bold;
+    margin: 55px;
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+}
+.pumpakontainer .pumpameny li a {
+    color: orange;
+    text-decoration: none;
+}
+.pumpa {
+    background-image: url(./bilder/pumpabilder/tumblr_pekigyrw3n1tu58kso2_250.png);
+    background-repeat: repeat;
+}
+.pumpakontainer {
+
+}
+
+.pumpakontainer .rutor {
+    margin: 30px 60px auto 75px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.pumpakontainer .rutor .pumpor {
+    background: gray;
+    width: 290px;
+    padding: 25px;
+    margin: 0 auto 20px auto
+}
+.kontainer .rutor .pumpor .pumpabilder {
+    border-style: solid;
+    border-color: orange;
+    border-width: 10px;
+    margin: 20px auto 50px 40px;
+    width: 285px;
+    background: gray;
 }
