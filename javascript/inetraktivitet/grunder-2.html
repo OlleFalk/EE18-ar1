@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grunder i Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Lyssna på knapphändelser</h1>
+
+        <button onclick="säkraEpost()">Säkra epostadressen</button>
+        
+        
+    </div>
+    <script>
+       function säkraEpost() {
+
+        /* Läs in epostadressen, Tex olle@gmail.com */
+        var epost = prompt("Vad är din epostadress");
+
+       /* Byt ut @ med (at) Tex olle@gmail.com olle(at)gmail.com */
+        var nyEpost = epost.replace('@', '(at)');
+
+        /* Skriv ut resultatet, dvs olle(at)gmail.com */
+        alert(nyEpost)
+           
+       }
+    </script>
+</body>
+</html>
