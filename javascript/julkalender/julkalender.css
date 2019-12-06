@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(./bilder/marina-khrapova-nE4CsEL9Z_s-unsplash.jpg);
+}
+.kontainer {
+    background: rgb(143, 22, 22);
+    width: 800px;
+    margin: 70px auto auto auto;
+    font-family: 'Mountains of Christmas', cursive;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    color: rgb(5, 102, 5);
+}
+.kalender {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+    justify-content: space-around;
+}
+.ruta {
+    font-size: 30px;
+    background: rgb(5, 102, 5);
+    width: 80px;
+    height: 80px;
+    padding: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    border: solid 2px white;
+}
+.ruta:hover {
+    background: rgb(11, 141, 11);
+    box-shadow: 0 0 10px white;
+}
+@keyframes tona {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.klapp1 {
+    background: url(./bilder/Bokstaven-G.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp2 {
+    background: url(./bilder/bokstaven-O.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp3 {
+    background: url(./bilder/bokstaven-D.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp4 {
+    background: url(./bilder/bindelstreck.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp5 {
+    background: url(./bilder/bokstaven-J.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp6 {
+    background: url(./bilder/bokstaven-U.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp7 {
+    background: url(./bilder/bostaven-L.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
+.klapp8 {
+    background: url(./bilder/bindelstreck.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp9 {
+    background: url(./bilder/bokstaven-O.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp10 {
+    background: url(./bilder/bokstaven-C.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp11 {
+    background: url(./bilder/bokstaven-H.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+}
+.klapp12 {
+    background: url(./bilder/bindelstreck.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp13 {
+    background: url(./bilder/Bokstaven-G.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp14 {
+    background: url(./bilder/bokstaven-O.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp15 {
+    background: url(./bilder/bokstaven-T.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp16 {
+    background: url(./bilder/bokstaven-T.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp17 {
+    background: url(./bilder/bindelstreck.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp18 {
+    background: url(./bilder/bokstaven-N.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp19 {
+    background: url(./bilder/bokstaven-Y.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp20 {
+    background: url(./bilder/bokstaven-T.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp21 {
+    background: url(./bilder/bokstaven-T.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp22 {
+    color: transparent;
+    background: url(./bilder/bindelstreck.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    color: transparent;
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+}
+.klapp23 {
+    background: url(./bilder/bokstaven-Å.png);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+}
+.klapp24 {
+    background: url(./bilder/bokstaven-R.jpg);
+    background-size: 80px 80px;
+    animation: tona 5s;
+    pointer-events: none;
+    border: solid 2px rgb(5, 102, 5);
+    box-shadow: 0 0 15px rgb(57, 223, 57);
+    color: transparent;
+
+}
