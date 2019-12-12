@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arbeta med DOM</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <button onclick="visaArnold()">Klicka inte mig!</button>
+    </div>
+    
+    <script>
+        /* element vi skall arbeta med */
+        const elementBox = document.querySelector("div");
+
+        function visaArnold() {
+            elementBox.innerHTML = "<h1>Alla älskar julen!</h1>" +
+                                   "<img src=\"./foton/giphy (1).webp\" alt=\"Arnold\">";
+        }
+    
+    </script>
+</body>
+</html>

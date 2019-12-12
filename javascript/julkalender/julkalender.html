@@ -36,6 +36,7 @@
             <div class="ruta animated dag23" onclick="öppnaDag23()">23</div>
             <div class="ruta animated dag24" onclick="öppnaDag24()">24</div>
         </div>
+        <button id="tomte" onclick="öppnaTomte()">Hemlig knapp</button>
     </div>
     <script>
         /* element vi arbetar med */
@@ -63,6 +64,7 @@
         const elementDag22 = document.querySelector(".dag22");
         const elementDag23 = document.querySelector(".dag23");
         const elementDag24 = document.querySelector(".dag24");
+        const elementTomten = document.querySelector("tomte");
 
         function öppnaDag1() {
             elementDag1.classList.toggle("fadeOut");
@@ -182,6 +184,10 @@
         function öppnaDag24() {
             elementDag24.classList.toggle("fadeOut");
             elementDag24.classList.toggle("klapp24");
+        }
+        function öppnaTomte() {
+           elementTomte.classList.toggle("fadeOut");
+           elementTomte.classList.toggle("tomten");
         }
     </script>
 </body>

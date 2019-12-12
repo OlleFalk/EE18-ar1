@@ -20,6 +20,7 @@ body {
     font-family: 'Mountains of Christmas', cursive;
     color: white;
     text-align: center;
+    border: solid 5px rgb(5, 102, 5);
 }
 h1 {
     font-size: 80px;
@@ -278,5 +279,19 @@ h1 {
     border: solid 2px rgb(5, 102, 5);
     box-shadow: 0 0 15px rgb(57, 223, 57);
     color: transparent;
-
+}
+button {
+    font-family: 'Mountains of Christmas', cursive;
+    color: white;
+    background: rgb(5, 102, 5);
+    border
+}
+button:hover {
+    background: rgb(11, 141, 11);
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+.tomten {
+    background-image: url(./bilder/tomten.jpg);
+    animation: tona 5s;
 }
