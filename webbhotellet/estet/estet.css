@@ -1,0 +1,47 @@
+/* Enkel CSS-reset */
+@import url('https://fonts.googleapis.com/css?family=Poppins|Gelasio|Roboto+Condensed&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: rgb(22, 0, 25);
+    background: linear-gradient(90deg, rgba(22, 0, 25, 1) 0%, rgba(106, 9, 121, 1) 40%, rgba(255, 0, 215, 1) 100%);
+}
+.kontainer {
+ 
+
+}
+.kontainer .klassA {
+    
+}
+.kontainer .klassA h1 {
+    
+
+}
+.kontainer .klassA ul{
+    
+    
+}
+.kontainer .klassA li{
+
+}
+.kontainer .klassA a {
+   
+}
+.kontainer .klassB {}
+.kontainer .klassB h1 {
+   
+}
+.kontainer .klassB a {
+    
+    
+    
+}

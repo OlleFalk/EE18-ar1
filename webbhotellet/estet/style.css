@@ -1,0 +1,77 @@
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap"rel="stylesheet">
+/* Enkel CSS-reset */
+    {}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f6f6f6;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(22, 0, 25);
+    background: linear-gradient(90deg, rgba(22, 0, 25, 1) 0%, rgba(106, 9, 121, 1) 40%, rgba(255, 0, 215, 1) 100%);
+}
+body .klassA {
+    width: 300px;
+    border-bottom: 20px solid #03a9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+body .klassA h2 {
+    color: #fff;
+    background: rgb(73, 2, 85);
+    background: linear-gradient(0deg, rgba(73, 2, 85, 1) 0%, rgba(252, 10, 247, 1) 100%);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+body .klassA ul {
+    position: relative;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+body .klassA ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px rgba(0, 0, 0, .1);
+    transition: transform 0.5s;
+    padding: 10px 0 10px 0;
+}
+body .klassA ul:hover li {
+    opacity: 0.2;
+}
+body .klassA ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px rgba(0, 0, 0, .2);
+    color: #fff;
+    opacity: 1;
+}
+body .klassA ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px)
+}
+body .klassA ul li:hover span {
+    background: #fff;
+    color: #25bcff;
+
+}
