@@ -1,0 +1,48 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: url("./bilder/minecraft-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.kontainer {
+    margin: 0 250px ;
+    padding-bottom: 375px;
+    background: rgba(0, 0, 0, 0.548);
+    width: 1020px;
+    text-align: center;
+    
+}
+.kontainer img {
+    margin: 0 225px auto 225px;
+    height: 300px;
+
+    
+}
+.kontainer h1 {
+    font-family: 'MinecraftiaRegular';
+    color: whitesmoke;
+    font-size: 35px;
+}
+.kontainer p {
+    font-family: 'MinecraftiaRegular';
+    color: whitesmoke;
+    width: 600px;
+    margin: 45px auto auto auto;
+    font-size: 20px;
+}
