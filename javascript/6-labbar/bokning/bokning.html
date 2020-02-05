@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotellbokning</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bokning.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Rumsbokning</h1>
+        <fieldset>
+            <legend>Val av rum</legend>
+            <input type="radio" name="rum" id="erum" value="5000" checked>
+            <label for="erum">enkelrum 5000 kr</label><br>
+            <input type="radio" name="rum" id="drum" value="8000">
+            <label for="drum">Dubbelrum 8000 kr</label><br>
+            <input type="radio" name="rum" id="frum" value="10000">
+            <label for="frum">Familjerum 10.000 kr</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Antal nätter</legend>
+            <select class="form-control form-control-sm">
+                <option value="1">1 Natt</option>
+                <option value="2">2 Nätter</option>
+                <option value="3">3 Nätter</option>
+                <option value="4">4 Nätter</option>
+                <option value="5">5 Nätter</option>
+                <option value="6">6 Nätter</option>
+                <option value="7">1 Vecka</option>
+                <option value="14">2 Veckor</option>
+            </select>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Tillägg</legend>
+            <input type="checkbox" name="tillägg" id="wifi" value="5000">
+            <label for="wifi">Snabb Wi-Fi 5000 kr</label><br>
+            <input type="checkbox" name="tillägg" id="tyst" value="1000000000">
+            <label for="tyst">Tyst rum 1.000.000.000 kr</label><br>
+            <input type="checkbox" name="tillägg" id="tv" value="10000">
+            <label for="tv">Större TV 10.000 kr</label><br>
+            <input type="checkbox" name="tillägg" id="frukost" value="7000" checked>
+            <label for="frukost">Frukost 7000 kr</label><br>
+            Kostnader per dygn.
+        </fieldset>
+        <fieldset>
+            <legend>Kampanjkod</legend>
+            Om du har en kampanjkod skriv in den här. <br>
+            <input class="form-control" type="text" id="kampanjkod">
+        </fieldset>
+        <fieldset>
+            <legend>Totalpris</legend>
+            <p>Dina val ger en kostnad på 0 kr.</p>
+            <button class="btn btn-secondary">Beräkna kostnad</button>
+        </fieldset>
+    </div>
+
+    <script defer src="./bokning.js"></script>
+</body>
+</html>
