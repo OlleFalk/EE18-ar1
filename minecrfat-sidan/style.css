@@ -16,13 +16,14 @@ html, body {
 body {
     background: url("./bilder/minecraft-bg.jpg");
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
 }
 .kontainer {
     margin: 0 250px ;
-    padding-bottom: 375px;
+    padding-bottom: 75px;
     background: rgba(0, 0, 0, 0.548);
     width: 1020px;
     text-align: center;

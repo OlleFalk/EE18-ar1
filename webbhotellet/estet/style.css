@@ -9,8 +9,11 @@ body {
     min-height: 100vh;
     background: #f6f6f6;
     font-family: 'Poppins', sans-serif;
-    background: rgb(22, 0, 25);
-    background: linear-gradient(90deg, rgba(22, 0, 25, 1) 0%, rgba(106, 9, 121, 1) 40%, rgba(255, 0, 215, 1) 100%);
+    background-image: url(./bilder/bakgrund2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 75px auto 75px 300px;
