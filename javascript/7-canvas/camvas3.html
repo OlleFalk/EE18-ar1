@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="canvas2.css">
+</head>
+<body>
+    <canvas></canvas>
+    <script>
+        /* element vi jobbar med */
+        const eCanvas = document.querySelector("canvas");
+
+        /* Ställ in bredd och höjd på canvas*/
+        eCanvas.width = 800;
+        eCanvas.height = 600;
+
+        /* AKtivera ritmotorn */
+        var ctx = eCanvas.getContext("2d");
+
+
+        /* Rita en cirkel */
+        ctx.beginPath();
+        ctx.arc(600, 200, 50, 0, 2 * Math.PI);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(100, 700);
+        ctx.lineTo(100, 100);
+        ctx.lineTo(600, 100);
+        ctx.lineTo(600, 150);
+        ctx.moveTo(600, 250);
+        ctx.lineTo(600, 350);
+        ctx.lineTo(650, 400);
+        ctx.moveTo(600, 350);
+        ctx.lineTo(550, 400);
+        ctx.moveTo(600, 275);
+        ctx.lineTo(550, 300);
+        ctx.moveTo(600, 275);
+        ctx.lineTo(650, 300);
+
+        ctx.moveTo(640, 200,);
+        ctx.arc(600, 200, 40, 0, 1 * Math.PI)
+        ctx.moveTo(630, 180)
+        ctx.arc(620, 180, 10 , 0 , 2 * Math.PI);
+        ctx.moveTo(585, 180)
+        ctx.arc(575, 180, 10 , 0 , 2 * Math.PI);
+        ctx.stroke();
+        
+        
+    
+
+    </script>
+</body>
+</html>

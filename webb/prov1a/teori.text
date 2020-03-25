@@ -1,0 +1,7 @@
+1. En god praxis är att ifall man kan korta ner sin kod utan att förstöra den så borde man för då kan man hålla bättre koll på ens kod
+
+En annan är att göra all kod i ordning så man inte hoppar fram och tillbaka mellan html css och javascript för då kommer det ta mycket längre tid. Så all HTML först sen all CSS och sen JavaScript.
+
+En tredje är att man inte börjar ett projekt om man inte har ett klart mål för sig, visst målet kan ändras under arbetets gång men har man ett mål från början så vet man vart man ska.
+
+2. Jag kontrollerar min kod genom att hålla bra koll på hur det ser ut via live Servern och om det är någonting jag skriver eller ändrar så kollar jag efter för att se om det blir rätt. För om jag skriver flera olika rader kod och sen ser att det är ett fel kan det ta tid att hitta vad felet är.
