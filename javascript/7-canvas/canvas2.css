@@ -21,3 +21,17 @@ canvas {
     margin: 10px auto;
 
 }
+.kol2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.kol3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+button {
+    font-size: 50px;
+    cursor: pointer;
+}
