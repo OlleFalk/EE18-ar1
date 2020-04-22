@@ -1,0 +1,63 @@
+Inlämning I dag
+K1 - koda Pikachu invaders
+
+Karim Ryde
+08:21
+Skapa ett invaders spel
+* Fyll i koden som saknas
+* Lägg till poäng man får när man skjuter ett monster
+* Lägg till liv man förlorar när man träffas av ett monster
+
+Välj egna bilder från https://icons8.com/icon/pack/characters/color
+
+_pikachu.html
+HTML
+
+pikachu.css
+Formatmall
+Klasskommentarer
+Ditt arbete
+Tilldelad
+Privata kommentarer
+
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: slategrey;
+    font-family: sans-serif;
+}
+canvas {
+    width: 800px;
+    height: 600px;
+    border: 1px solid salmon;
+    display: block;
+    margin: 10px auto;
+    background: #FFF;
+}
+.kol2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.kol3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+button {
+    font-size: 40px;
+    cursor: pointer;
+}

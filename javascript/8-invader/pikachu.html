@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>invaders-spel</title>
+    <link rel="stylesheet" href="./pikachu.css">
+</head>
+<body>
+    <canvas></canvas>
+    <script>
+        /* Ikoner från https://icons8.com/icon/set/game/color */
+        /* Ställ in canvas */
+        const eCanvas = document.querySelector("canvas");
+        eCanvas.width = 1200;
+        eCanvas.height = 1000;
+        var ctx = eCanvas.getContext("2d");
+
+        /* ****************************** */
+        /*  Variabler och objekten        */
+        /* ****************************** */
+        var figurX = Math.random() * 1200;
+        var figurY = 0;
+
+
+       
+
+      
+        /* Batman */
+        var batman = {
+            x: Math.random() * 1200,
+            y: 0,
+            bild: new Image()
+        }
+         /* Ladda in bilderna */
+         batman.bild.src = "./ikoner/Favorites/icons8-batman-logo-50.png"
+
+
+        /* ****************************** */
+        /*            Funktioner          */
+        /* ****************************** */
+        function ritaFigur(x, y) {
+            ctx.fillStyle = "pink";
+            ctx.fillRect(x, y, 50, 50);
+        }
+        function ritaBatman() {
+            ctx.drawImage(batman, batmanX, batmanY);
+        }
+
+        /* Animationsloopen */
+        function loopen() {
+            /* Sudda ut canvas */
+            ctx.clearRect(0, 0, 1200, 1000);
+
+            /* Ökar på värdet på X */
+            figurY += Math.random() * 10;
+            console.log(figurX);
+            
+            ritaFigur(figurX, figurY);
+
+            batmanY += Math.random() * 10;
+            ritaBatman();
+
+
+
+            requestAnimationFrame(loopen);
+        }
+
+
+        /* ****************************** */
+        /*     Starta animationsloopen    */
+        /* ****************************** */
+        loopen();
+
+    </script>
+</body>
+</html>
+
+
+
+Inlämning I dag
+K1 - koda Pikachu invaders
+
+Karim Ryde
+08:21
+Skapa ett invaders spel
+* Fyll i koden som saknas
+* Lägg till poäng man får när man skjuter ett monster
+* Lägg till liv man förlorar när man träffas av ett monster
+
+Välj egna bilder från https://icons8.com/icon/pack/characters/color
+
+_pikachu.html
+HTML
+
+pikachu.css
+Formatmall
+Klasskommentarer
+Ditt arbete
+Tilldelad
+Privata kommentarer
+
+K1 - koda Pikachu invaders
